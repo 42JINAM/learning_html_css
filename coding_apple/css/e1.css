@@ -1,0 +1,28 @@
+.profile {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-size: 16px;
+    font-family: 'BM Hanna 11yrs Old', serif;
+    letter-spacing: 10px;
+    text-align: center
+}
+
+.special {
+    text-align: center;
+    font-family: 'BM Hanna 11yrs Old', serif;
+    font-size: 20px;
+}
+
+.work > strong {
+    color: midnightblue;
+}
+
+.work-description{
+    text-align: center;
+    font-family: 'BM Hanna 11yrs Old', serif;
+}
