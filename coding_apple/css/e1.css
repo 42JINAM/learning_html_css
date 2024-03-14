@@ -22,7 +22,26 @@
     color: midnightblue;
 }
 
-.work-description{
+.content {
     text-align: center;
     font-family: 'BM Hanna 11yrs Old', serif;
+}
+
+.box {
+    width: 250px;
+    background-color: steelblue;
+    padding: 40px;
+    border: 4px;
+    border-radius: 5px;
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    font-size: 15px;
+    font-family: 'BM Hanna 11yrs Old', serif;
+    color: whitesmoke;
+
+    box-shadow:inset -5px -5px 20px 5px paleturquoise,inset 5px 5px 20px 5px blue;
 }
