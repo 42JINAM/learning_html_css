@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .main-background {
     width: 100%;
     height: 500px;
@@ -6,6 +10,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 1px; /*margin collapse */
+    position: relative;/* 기준점*/
 }
 
 .main-title {
@@ -26,8 +31,20 @@
     width: 150px;
     height: 50px;
     display: block;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+    /*position */
+    position: absolute;/* 기준점*/
+    /*bottom:20px;*/
+    /*right: 20px;*/
+
+    left: 0;
+    right: 0;
     margin-left: auto;
     margin-right: auto;
+
+
     font-family: "Apple Braille", SansSerif, serif;
 
     outline: 0;
@@ -40,4 +57,20 @@
     font-weight: 700;
     line-height: 1;
     transition: transform 200ms, background 200ms;
+}
+
+.main-card {
+    position: absolute;
+    top: 480px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+    width: 700px;
+    height: 150px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
 }
