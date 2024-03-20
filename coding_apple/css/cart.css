@@ -1,0 +1,93 @@
+:root {
+  --page-background: #9bb7d4;
+  --page-bold-text: #03257e;
+  --page-basic-text: #7a939c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.normal {
+  text-align: left;
+  color: var(--page-basic-text);
+}
+
+.highlight {
+  color: var(--page-bold-text);
+  text-align: right;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--page-background);
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  height: 700px;
+  max-width: 700px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+th,
+td {
+  color: var(--page-basic-text);
+  border-bottom: 1.5px solid var(--page-background);
+  padding: 10px;
+}
+
+thead {
+  font-size: 10px;
+}
+
+.table-item {
+  padding-top: 20px;
+  width: 60%;
+}
+
+.table-item>img {
+  display: block;
+  max-width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.item-name {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.item-name img {
+  max-width: 20px;
+  margin-right: 5px;
+  float: left;
+}
+
+.cart-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-button {
+  background-color: var(--page-bold-text);
+  border: none;
+  color: white;
+  height: 50px;
+  padding: 15px;
+  border-radius: 5px;
+}
