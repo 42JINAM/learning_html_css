@@ -1,5 +1,17 @@
+@font-face {
+  font-family: "nanumsquare";
+  src: url("../assets/NanumSquareR.woff");
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+  font-family: nanumsquare;
+  margin: 0px;
 }
 
 div {
@@ -47,8 +59,6 @@ div {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-
-  font-family: "Apple Braille", SansSerif, serif;
 
   outline: 0;
   border: 0;

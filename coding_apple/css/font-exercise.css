@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "nanumsquare";
+  src: url("../assets/NanumSquareR.woff");
+}
+/*@font-face {*/
+/*  font-family: "nanumsquare";*/
+/*  font-weight: 800;*/
+/*  src: url("../assets/NanumSquareB.woff");*/
+/*}*/
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: nanumsquare, serif;
+}
+
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+  transform: rotate(0.03deg);
+}
