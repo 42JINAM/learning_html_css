@@ -100,3 +100,21 @@ div {
   border: 2px solid black;
   border-radius: 5px;
 }
+.nav-container {
+  height: 70px;
+  display: flex;
+  background: salmon;
+  color: white;
+  /*height: 500px;*/
+  align-items: center;
+  justify-content: center;
+}
+.flex-item {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.nav-logo {
+  margin-left: 20px;
+  font-size: 30px;
+}
