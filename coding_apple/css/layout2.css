@@ -10,7 +10,7 @@ textarea {
 }
 
 body {
-  font-family: nanumsquare;
+  font-family: nanumsquare, serif;
   margin: 0px;
 }
 
@@ -32,7 +32,7 @@ div {
 .main-title {
   margin-top: 150px;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 

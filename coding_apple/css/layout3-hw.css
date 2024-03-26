@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "nanumsquare";
+  src: url("../assets/NanumSquareR.woff");
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: nanumsquare, serif;
+  margin: 0px;
+  background-color: #eeeeee;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-top: 5vh;
+  width: 97vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-item {
+  width: 10em;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 80vw;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+  }
+
+  .container-item {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 50vw;
+    flex-direction: column;
+  }
+}
