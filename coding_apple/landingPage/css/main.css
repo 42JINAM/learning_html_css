@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "nanumsquare";
+  src: url("NanumSquareR.woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: nanumsquare, serif;
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  max-height: 500px;
+  background: rgb(78, 97, 193);
+  background: linear-gradient(
+    0deg,
+    rgba(78, 97, 193, 1) 1%,
+    rgba(73, 151, 219, 1) 95%
+  );
+  padding: 100px 100px 0;
+}
+
+.main-left {
+  width: 70%;
+}
+
+.main-right {
+  width: 30%;
+}
+
+.main-right img {
+  box-sizing: border-box;
+  height: 100%;
+  bottom: 0;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15em;
+  padding: 2em;
+}
+
+.offer-container {
+  background-color: #4e60c0;
+  height: 20em;
+  padding: 3em;
+  color: white;
+}
+
+.offer-title {
+  width: 100%;
+  text-align: center;
+}
+
+.offer-body {
+  display: flex;
+  align-content: space-evenly;
+}
+
+.button--grey {
+  margin-top: 1em;
+  height: 50px;
+  border: none;
+  border-radius: 0.3em;
+  background-color: #444445;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.f-white {
+  color: white;
+}
+
+.title {
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 80vw;
+    max-width: 700px;
+    flex-wrap: wrap;
+  }
+  .container-item {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    max-height: 800px;
+    flex-direction: column;
+  }
+
+  .main-left {
+    width: 100%;
+  }
+
+  .main-right {
+    width: 100%;
+    height: 400px;
+  }
+
+  .main-right img {
+    box-sizing: border-box;
+    height: 100%;
+    bottom: 0;
+  }
+}
